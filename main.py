@@ -1,8 +1,8 @@
 import socket
 
 # Define the target enclave's vSock CID and port
-VSOCK_CID = 17  # This is typically the CID of the Nitro Enclave
-VSOCK_PORT = 5006
+VSOCK_CID = 16  # This is typically the CID of the Nitro Enclave
+VSOCK_PORT = 5000
 
 def connect_to_vsock_server():
     # Create a vsock socket
